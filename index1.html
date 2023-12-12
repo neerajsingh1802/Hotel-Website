@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <title>Hotel Management</title>
+    <style>
+        body{
+            background-color: rgb(162, 214, 223);
+            height: 650;
+        }
+        #red{
+            background-color:white;
+            height: 610px;
+        }
+         #green{ 
+             background-color: rgb(162, 214, 223); 
+             height: 40px; 
+            
+         } 
+         #b1{
+            color: rgb(202, 183, 183);
+         }
+         #b2{
+            background-color: cornsilk;
+            height:90px;
+            width: 240px;
+            border-radius: 12px;
+            justify-content: center;
+         }
+         #b3{
+            background-color: cornsilk;
+            height:90px;
+            width: 240px;
+            margin-top: -90px;
+            margin-left: 275px;
+            border-radius: 12px;
+         }
+         #b4{
+            background-color: cornsilk;
+            height:90px;
+            width: 240px;
+            margin-top: -90px;
+            margin-left: 550px;
+            border-radius: 12px;
+         }
+         #b5{
+              background-color: rgb(134, 240, 12);
+              height:80px;
+              width: 90px;
+              margin-top: -85px;
+              margin-left: 12px;
+              border-radius: 12px;
+         }
+         #b6{
+              background-color: rgb(240, 8, 59);
+              height:80px;
+              width: 90px;
+              margin-top: -80px;
+              margin-left: 288px;
+              border-radius: 12px;
+         }
+         #b7{
+              background-color: rgb(8, 136, 240);
+              height:80px;
+              width: 90px;
+              margin-top: -80px;
+              margin-left: 562px;
+              border-radius: 12px;
+         }
+         #b9{
+              background-color:cornsilk;
+              height:450px;
+              width: 350px;
+              margin-top: -83px;
+              margin-left: 860px;
+              border-radius: 12px;
+         }
+         #c0{
+             margin-top: -258px;
+             margin-left: 900px;
+             color: rgb(97, 92, 92)
+
+         }
+
+
+         #c1{
+              background-color:cornsilk;
+              height:60px;
+              width: 200px;
+              margin-top: -15px;
+              margin-left: 920px;
+              border-radius: 8px;
+              border: 1px solid grey;
+              padding-left: 10px;
+              font-size: small;
+              color: rgb(97, 92, 92); ;
+         }
+         #c2{
+            height: 20px;
+            width:120px;
+            color:darkgreen;
+            background-color:rgb(98, 245, 98) ;
+            font-size: x-small;
+            font-weight: 700;
+            border-radius: 12px;
+            margin-left: 929px;
+            margin-top: -29px;
+         }
+
+         #r1{
+            background-color: rgb(255, 145, 0);
+            
+             height:30px;
+             width:60px;
+             border-radius:10px;
+             padding: 5px;
+             color:rgb(97, 92, 92); 
+             font-size:small;
+             margin-left: 920px;
+         }
+         #c3{
+            
+             margin-top:-20px;
+             margin-left: 906px;
+             color: rgb(97, 92, 92)
+
+         }
+         #c4{
+              background-color:cornsilk;
+              height:60px;
+              width: 200px;
+              margin-top: -15px;
+              margin-left: 921px;
+              border-radius: 8px;
+              border: 1px solid grey;
+              padding-left: 10px;
+              font-size: small;
+              color: rgb(97, 92, 92); ;
+         }
+         #c5{
+            height: 20px;
+            width:120px;
+            color:rgb(228, 128, 5);
+            background-color:rgb(245, 195, 102) ;
+            font-size: x-small;
+            font-weight: 700;
+            border-radius: 12px;
+            margin-left: 929px;
+            margin-top: -29px;
+         }
+         #c6{
+    
+            
+            margin-left: 880px;
+            margin-top: -219px;
+            
+         }
+         #c7{
+             margin-left: 863px;
+             margin-top: -35px;
+             
+         }
+
+          #c8{ 
+             margin-left: 863px;
+             margin-top: -190px;     
+        } 
+        #c9{
+             margin-left:3px;
+             margin-top:-120px; 
+        }
+
+
+    </style>
+</head>
+<body>
+
+ <div class="container-fluid" id="red">
+<div class="row" id="green">
+
+    <div class="col-1 bg-light">
+        <div class="row" style="min-height: 650px;">
+            <div class="col-12">
+                <br></br>
+                &nbsp;   <img src="./earth.jpg" alt="hugenerd" width="40" height="33" class="rounded-circle" >
+                <br></br>
+              &nbsp; &nbsp;  <i class="bi bi-grid-fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-fill" viewBox="0 0 16 16">
+                        <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z"/>
+                      </svg>
+                </i>
+                <br></br>
+                &nbsp; &nbsp; <i class="bi bi-pie-chart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pie-chart" viewBox="0 0 16 16">
+                        <path d="M7.5 1.018a7 7 0 0 0-4.79 11.566L7.5 7.793V1.018zm1 0V7.5h6.482A7.001 7.001 0 0 0 8.5 1.018zM14.982 8.5H8.207l-4.79 4.79A7 7 0 0 0 14.982 8.5M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8"/>
+                      </svg>
+                </i>
+                <br></br>
+                &nbsp; &nbsp; <i class="bi bi-heart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                      </svg>
+                </i>
+                <br></br>
+                &nbsp; &nbsp;  <i class="bi bi-journal-text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-text" viewBox="0 0 16 16">
+                        <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                        <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+                        <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+                      </svg>
+                </i>
+                <br></br>
+                &nbsp; &nbsp; <i class="bi bi-calendar4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar4" viewBox="0 0 16 16">
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                      </svg>
+                </i>
+                <br></br>
+                &nbsp; &nbsp; <i class="bi bi-envelope">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                      </svg>
+                </i>
+                <br></br>
+                &nbsp; &nbsp;<i class="bi bi-gear">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                        <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                        <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+                      </svg>
+                </i>
+
+            </div>
+        </div>
+
+
+
+    </div> 
+    
+    <div class="col-11">
+        <br><br><br>
+        <p class="h5">Welcome, <b>Ariana !</b>
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  <i class="bi bi-bell">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
+      </svg>
+</i>
+&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;<span style="color: rgb(97, 92, 92); font-size: medium;">Anjayani abraham</span></b>&nbsp;&nbsp;
+   <img src="./ldki.png" alt="logo" width="60" height="40" class="rounded-circle" >&nbsp;&nbsp;     
+
+            <i class="bi bi-chevron-down">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+            </i>
+        </p>
+        <p id="b1">Don't forget to check your activity</p>
+
+ <div id="b2">
+
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span style="color: rgb(97, 92, 92);">Total Arrived</span><br>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  <span style="font-size: xx-large;"><b>231</b></span>
+</div>       
+ <div id="b3">
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span style="color: rgb(97, 92, 92);">Total Booked</span><br>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  <span style="font-size: xx-large;"><b>891</b></span>
+ </div>
+ <div id="b4">
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span style="color: rgb(97, 92, 92);">Total check in</span><br>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  <span style="font-size: xx-large;"><b>231</b></span>
+</div>  
+
+<div id="b5">
+    <br>
+    &nbsp; &nbsp;&nbsp;  <img src="./images.jpg" alt="hugenerd" width="40" height="33" >
+</div>
+<div id="b6">
+    <br>
+    &nbsp; &nbsp;&nbsp;  <img src="./images2.jpg" alt="hugenerd" width="40" height="33" >
+</div>
+<div id="b7">
+    <br>
+    &nbsp; &nbsp;&nbsp;  <img src="./images12.jpg" alt="hugenerd" width="40" height="33" >
+</div>
+<div id="b8"></div>
+<div id="b9">
+    <span style="font-weight: bolder; font-size: larger;">&nbsp;&nbsp;&nbsp;&nbsp;Staff schedule</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp; &nbsp;&nbsp;<span style="color: rgb(97, 92, 92); font-size:small;">See all</span>
+    <br></br>
+    <span style="font-weight: 600; font-size: large;">&nbsp;&nbsp;&nbsp;&nbsp;Today,</span>&nbsp;4 october&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <i class="bi bi-chevron-left">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+          </svg>
+    </i>
+    <i class="bi bi-chevron-right">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+    </i>
+    <br></br>
+    <span style="color: rgb(97, 92, 92); font-size:medium;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sun&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Mon&nbsp;&nbsp;&nbsp;&nbsp;Tue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thr&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;Fri&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sat</span>
+      <br>
+      <span style="color: rgb(97, 92, 92); font-size:medium;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="bi bi-2-circle-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-2-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.646 6.24c0-.691.493-1.306 1.336-1.306.756 0 1.313.492 1.313 1.236 0 .697-.469 1.23-.902 1.705l-2.971 3.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763 1.287-1.428 1.287-2.43 0-1.266-1.031-2.215-2.613-2.215-1.758 0-2.637 1.19-2.637 2.402v.065h1.271v-.07Z"/>
+          </svg></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7</span>
+          <br><hr>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: rgb(0, 140, 255); color: white; height:20px; width:60px; border-radius:10px; padding: 5px;">Front Office</span >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(97, 92, 92); font-size:small;">Today,12:32 am</span>
+          <br>
+</div><br>
+<div id="c0"><b>&nbsp;&nbsp;&nbsp;&nbsp;Aris nurman</b>
+    completed task<b>#213</b>
+</div>
+<br>
+<div id="c1">
+     <b>Machine repair</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>#212</b>
+</div>
+<div id="c2">&nbsp;&nbsp;<i class="bi bi-check-circle-fill">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+      </svg>
+</i>&nbsp;&nbsp;&nbsp;&nbsp;Task completed
+ </div>
+
+
+
+<br>
+ <div id="r1"><span style="color:white;">Kitchen</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today,08:35am</div>
+ <br>
+
+ <div id="c3"><b>&nbsp;&nbsp;&nbsp;&nbsp;Karun Aas</b>
+    get new work<b>#213</b>
+</div>
+<br>
+<div id="c4">
+     <b>Cooking for guest</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>#212</b>
+</div>
+<div id="c5">
+    &nbsp;&nbsp; <i class="bi bi-flag-fill">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flag-fill" viewBox="0 0 16 16">
+            <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001"/>
+          </svg>
+    </i>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New task 
+ </div>
+ <div id="c6"> <img src="./1dshed.png" alt="hugenerd" width="7" height="140"></div><br>
+<div id="c7"> <img src="./smart.jpg" alt="hugenerd" width="40" height="33" class="rounded-circle" ></div><br>
+<div id="c8"> <img src="./imagge.png" alt="hugenerd" width="40" height="33" class="rounded-circle" ></div>
+<div id="c9"> <img src="./campaign overview.png"width="700px" height="260px" ></div>
+
+
+
+
+
+
+
+
+ </div>
+ </div> 
+
+
+
+ </div>
+</div>
+</body>
+</html> 
